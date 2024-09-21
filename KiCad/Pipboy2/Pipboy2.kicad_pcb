@@ -45,10 +45,10 @@
 			(layerselection 0x00010fc_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
 			(disableapertmacros no)
-			(usegerberextensions no)
-			(usegerberattributes yes)
-			(usegerberadvancedattributes yes)
-			(creategerberjobfile yes)
+			(usegerberextensions yes)
+			(usegerberattributes no)
+			(usegerberadvancedattributes no)
+			(creategerberjobfile no)
 			(dashed_line_dash_ratio 12.000000)
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
@@ -67,16 +67,16 @@
 			(psnegative no)
 			(psa4output no)
 			(plotreference yes)
-			(plotvalue yes)
+			(plotvalue no)
 			(plotfptext yes)
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
-			(subtractmaskfromsilk no)
+			(subtractmaskfromsilk yes)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "fab/")
 		)
 	)
 	(net 0 "")
@@ -432,7 +432,7 @@
 			(uuid "3a2b2941-0f3f-4135-8f68-ec2441d94758")
 		)
 		(fp_text user "K"
-			(at 0 -2.4 90)
+			(at -0.92 -2.4 90)
 			(layer "F.SilkS")
 			(uuid "dbb6c2fa-a470-4c47-be64-4a73468c0414")
 			(effects
@@ -443,7 +443,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 -2.4 90)
+			(at -0.92 -2.4 90)
 			(layer "F.Fab")
 			(uuid "744b1efa-ca81-41e5-819e-9e63b20cff20")
 			(effects
@@ -516,7 +516,7 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 0 4.87 360)
+			(at 0 4.87 0)
 			(layer "F.Fab")
 			(uuid "91c1c5d8-c760-46f0-88f9-839d1b2aa5b7")
 			(effects
@@ -1083,7 +1083,7 @@
 			(uuid "907cdf13-ecf8-455d-bddf-ce4c64efbcd6")
 		)
 		(fp_text user "K"
-			(at 0 -2.4 90)
+			(at -0.92 -2.5 90)
 			(layer "F.SilkS")
 			(uuid "4b1f6f47-d5f3-4ff6-8036-2a68b7db551a")
 			(effects
@@ -1105,7 +1105,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 -2.4 90)
+			(at -0.92 -2.5 90)
 			(layer "F.Fab")
 			(uuid "b64e69f6-6429-4281-83d0-8ef96b2e89ea")
 			(effects
@@ -1156,7 +1156,7 @@
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "RV1"
-			(at 1.582 -2.63 180)
+			(at 1.582 -3.13 180)
 			(layer "F.SilkS")
 			(uuid "4ee21aa5-7476-46c0-9873-e4ce8335fe71")
 			(effects
@@ -2731,7 +2731,7 @@
 		(descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x08 2.54mm single row")
 		(property "Reference" "J2"
-			(at -2.564 -1.366 180)
+			(at -2.564 -0.866 180)
 			(layer "F.SilkS")
 			(uuid "2f7d6341-0c2a-4951-a71f-51d2c1c7fa04")
 			(effects
@@ -3716,7 +3716,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "SW2"
-			(at 3.312606 3.544271 360)
+			(at 3.312606 3.544271 0)
 			(layer "F.SilkS")
 			(uuid "e152a170-93ff-4950-94ce-615a7237fb8d")
 			(effects
@@ -3727,7 +3727,7 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 0 4.87 360)
+			(at 0 4.87 0)
 			(layer "F.Fab")
 			(uuid "304a3ae8-5c64-4ce5-831e-e966174986ef")
 			(effects
