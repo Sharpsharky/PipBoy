@@ -3605,7 +3605,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b604125-71a3-4c12-9c4e-6e2e47751695")
-		(property "Reference" "U1"
+		(property "Reference" "VolStab"
 			(at 143.51 36.83 0)
 			(effects
 				(font
@@ -3662,7 +3662,7 @@
 		(instances
 			(project ""
 				(path "/e5f66db8-0cc8-44f6-bfd7-85690320585e"
-					(reference "U1")
+					(reference "VolStab")
 					(unit 1)
 				)
 			)
@@ -4068,7 +4068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d1ea399-842b-4326-ab15-a2bb636908bd")
-		(property "Reference" "SW2"
+		(property "Reference" "But2"
 			(at 156.21 102.87 0)
 			(effects
 				(font
@@ -4121,7 +4121,7 @@
 		(instances
 			(project "Pipboy2"
 				(path "/e5f66db8-0cc8-44f6-bfd7-85690320585e"
-					(reference "SW2")
+					(reference "But2")
 					(unit 1)
 				)
 			)
@@ -4204,15 +4204,15 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e24ab55-8560-4d7d-906b-78d5138efcaa")
-		(property "Reference" "J2"
-			(at 153.035 110.49 0)
+		(property "Reference" "LCD"
+			(at 153.035 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LCD Socket"
+		(property "Value" "~"
 			(at 153.035 113.03 0)
 			(effects
 				(font
@@ -4274,7 +4274,7 @@
 		(instances
 			(project ""
 				(path "/e5f66db8-0cc8-44f6-bfd7-85690320585e"
-					(reference "J2")
+					(reference "LCD")
 					(unit 1)
 				)
 			)
@@ -4290,7 +4290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aec3df33-5c6e-4783-8987-f57857c039f2")
-		(property "Reference" "J1"
+		(property "Reference" "Batt"
 			(at 114.935 35.56 0)
 			(effects
 				(font
@@ -4342,7 +4342,7 @@
 		(instances
 			(project ""
 				(path "/e5f66db8-0cc8-44f6-bfd7-85690320585e"
-					(reference "J1")
+					(reference "Batt")
 					(unit 1)
 				)
 			)
@@ -4511,7 +4511,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d38539f7-2a9e-49f5-96af-b3fb1083da56")
-		(property "Reference" "RV1"
+		(property "Reference" "Poten"
 			(at 210.82 95.2499 0)
 			(effects
 				(font
@@ -4568,7 +4568,7 @@
 		(instances
 			(project ""
 				(path "/e5f66db8-0cc8-44f6-bfd7-85690320585e"
-					(reference "RV1")
+					(reference "Poten")
 					(unit 1)
 				)
 			)
@@ -4654,8 +4654,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dea94bc5-a02e-439a-a048-66d87b2c8b98")
-		(property "Reference" "J3"
-			(at 170.18 37.4649 90)
+		(property "Reference" "PowerBut"
+			(at 170.18 38.0999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4663,8 +4663,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Power Button"
-			(at 170.18 40.0049 90)
+		(property "Value" "~"
+			(at 170.18 40.005 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4672,7 +4672,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 166.37 38.1 0)
 			(effects
 				(font
@@ -4708,7 +4708,7 @@
 		(instances
 			(project "Pipboy2"
 				(path "/e5f66db8-0cc8-44f6-bfd7-85690320585e"
-					(reference "J3")
+					(reference "PowerBut")
 					(unit 1)
 				)
 			)
@@ -5008,7 +5008,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "edcbc6b8-0631-47de-9fcd-eca8dbcd798a")
-		(property "Reference" "SW1"
+		(property "Reference" "But1"
 			(at 156.21 95.25 0)
 			(effects
 				(font
@@ -5061,7 +5061,7 @@
 		(instances
 			(project ""
 				(path "/e5f66db8-0cc8-44f6-bfd7-85690320585e"
-					(reference "SW1")
+					(reference "But1")
 					(unit 1)
 				)
 			)
