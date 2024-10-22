@@ -3031,7 +3031,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0382a5e1-4077-4b4e-9b68-728d5e382b04")
-		(property "Reference" "ArduinoNano"
+		(property "Reference" "ArduinoNano1"
 			(at 187.6141 121.92 0)
 			(effects
 				(font
@@ -3170,7 +3170,7 @@
 		(instances
 			(project ""
 				(path "/e5f66db8-0cc8-44f6-bfd7-85690320585e"
-					(reference "ArduinoNano")
+					(reference "ArduinoNano1")
 					(unit 1)
 				)
 			)
@@ -3605,7 +3605,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b604125-71a3-4c12-9c4e-6e2e47751695")
-		(property "Reference" "VolStab"
+		(property "Reference" "VolStab1"
 			(at 143.51 36.83 0)
 			(effects
 				(font
@@ -3662,7 +3662,7 @@
 		(instances
 			(project ""
 				(path "/e5f66db8-0cc8-44f6-bfd7-85690320585e"
-					(reference "VolStab")
+					(reference "VolStab1")
 					(unit 1)
 				)
 			)
@@ -4204,7 +4204,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e24ab55-8560-4d7d-906b-78d5138efcaa")
-		(property "Reference" "LCD"
+		(property "Reference" "LCD1"
 			(at 153.035 111.76 0)
 			(effects
 				(font
@@ -4274,7 +4274,7 @@
 		(instances
 			(project ""
 				(path "/e5f66db8-0cc8-44f6-bfd7-85690320585e"
-					(reference "LCD")
+					(reference "LCD1")
 					(unit 1)
 				)
 			)
@@ -4290,7 +4290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aec3df33-5c6e-4783-8987-f57857c039f2")
-		(property "Reference" "Batt"
+		(property "Reference" "Batt1"
 			(at 114.935 35.56 0)
 			(effects
 				(font
@@ -4342,7 +4342,7 @@
 		(instances
 			(project ""
 				(path "/e5f66db8-0cc8-44f6-bfd7-85690320585e"
-					(reference "Batt")
+					(reference "Batt1")
 					(unit 1)
 				)
 			)
@@ -4511,7 +4511,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d38539f7-2a9e-49f5-96af-b3fb1083da56")
-		(property "Reference" "Poten"
+		(property "Reference" "Poten1"
 			(at 210.82 95.2499 0)
 			(effects
 				(font
@@ -4568,7 +4568,7 @@
 		(instances
 			(project ""
 				(path "/e5f66db8-0cc8-44f6-bfd7-85690320585e"
-					(reference "Poten")
+					(reference "Poten1")
 					(unit 1)
 				)
 			)
@@ -4654,7 +4654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dea94bc5-a02e-439a-a048-66d87b2c8b98")
-		(property "Reference" "PowerBut"
+		(property "Reference" "PowerBut1"
 			(at 170.18 38.0999 90)
 			(effects
 				(font
@@ -4708,7 +4708,7 @@
 		(instances
 			(project "Pipboy2"
 				(path "/e5f66db8-0cc8-44f6-bfd7-85690320585e"
-					(reference "PowerBut")
+					(reference "PowerBut1")
 					(unit 1)
 				)
 			)
